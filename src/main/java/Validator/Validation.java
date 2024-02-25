@@ -14,7 +14,8 @@ public class Validation {
     Date[] businessApplication;
     String[] businessAddress;
     Date[] businessCertification;
-    int[] numEmployees; 
+    int[] numEmployees;  
+    boolean firstApplication = true;
     boolean firstTimePresent = true;
     boolean notFirstTime = true;
     boolean businessNamePresent = true;
