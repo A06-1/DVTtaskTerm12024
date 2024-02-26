@@ -233,7 +233,7 @@ public class ApplicationScreen extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField3ActionPerformed
 
     private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
-       String date = dateField.getText();
+       String date = date.getText();
     }//GEN-LAST:event_jTextField7ActionPerformed
 
     private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
