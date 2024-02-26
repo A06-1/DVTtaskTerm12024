@@ -225,11 +225,11 @@ public class ApplicationScreen extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-       String businessName = businessNameField.getText();
+       String businessName = businessName.getText();
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
-       String id = idField.getText();
+       String id = idNumber.getText();
     }//GEN-LAST:event_jTextField3ActionPerformed
 
     private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
@@ -237,7 +237,7 @@ public class ApplicationScreen extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField7ActionPerformed
 
     private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
-        /Integer employees = parseInteger(employeesField.getText());
+        /Integer numEmployees = parseInteger(numEmployees.getText());
     }//GEN-LAST:event_jTextField6ActionPerformed
 private void write(){
     writeJSONToFile(businessData, "business_data_from_ui.json");
